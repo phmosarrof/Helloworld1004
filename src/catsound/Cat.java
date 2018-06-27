@@ -6,12 +6,18 @@ public class Cat{
 		Age = catSound;
 	}
 	public void CatCall(){
-		for(int Age=1; Age<5;Age++)
-		System.out.println("Meu>>>>Meu-I would like to eat some fish.");	
+		for(int Age=1; Age<3;Age++)
+		System.out.println("(((Meu)))>>>> (((Meu))) - I would like to eat some fish.");
+		System.out.println(" >>>>> I am so hungery !!");
 	}
 	public void run(int feet) {
 	    
 	    System.out.println(" >>>>>> \nHey!! I can ran " + feet + " Kmh!");
+
+		}
+public void color() {
+	    
+	    System.out.println(" >>>>>> \nHelloo!! Do you know..My color is White!");
 
 		}
 	public static void main(String[] args) {
@@ -19,6 +25,7 @@ public class Cat{
 	Cat Sound = new Cat(8);
 	Sound.CatCall();
 	Sound.run(10);
+	Sound.color();
 	
 	}
 
