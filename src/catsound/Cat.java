@@ -12,6 +12,8 @@ public class Cat{
 	public void run(int feet) {
 	    
 	    System.out.println(" >>>>>> \nHey!! I can ran " + feet + " Kmh!");
+ System.out.println(" >>>>>>>> \nHey!! I can ran " + feet + " Kmh!");
+
 
 		}
 	public static void main(String[] args) {
